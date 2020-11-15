@@ -473,15 +473,23 @@
 }
 
 
-.bottom-button{
+
+#footer {
+  
+  background-color: #51125c;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #51125c;
- 
-  height: 20vh;
+  height: 18vh;
+  width: 100%;
+
 }
 
+.bottom-button{
+  justify-self: center;
+  align-self: center;
+
+}
 .btn-common{
   border-color: #f1ee43;
   color: #f1ee43;
@@ -1542,4 +1550,10 @@ Privacy Policy
 
 .privacy-policy-body{
   margin: 4vh 3vw;
+}
+
+
+.privacy-policy-link {
+  align-self: flex-end;
+
 }
