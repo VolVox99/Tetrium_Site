@@ -480,9 +480,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 18vh;
   width: 100%;
 
+}
+
+#footer a {
+  margin: 10px
 }
 
 .bottom-button{
